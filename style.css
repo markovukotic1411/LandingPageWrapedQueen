@@ -1,0 +1,139 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+    font-family: 'Raleway', sans-serif;  
+}
+
+header{
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em 1em 3em;
+    height: 5em;
+    font-weight: bold;
+    letter-spacing: 0.1em; 
+    
+    
+}
+.logo{
+   flex-direction: row;
+   justify-content: flex-end;
+ 
+}
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+nav ul li a{
+    padding-left: 2em;
+    color:#383833;
+    text-decoration: none;
+}
+
+.hero-section1{
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 53.5em;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #DEF0D8, #FAFAFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DEF0D8, #FAFAFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.PrviDio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    order: 1;
+}
+
+.PrviDio h1{
+    font-size: 5em;
+    color: #383833;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+.PrviDio p{
+    font-size: 1em;
+    color: #383833;
+    padding-bottom: 2.5em;
+    letter-spacing: 0.075em; 
+    
+}
+.btn-hero-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F19A33;
+    font-size: 2em;
+    width: 10em;
+    height: 2em;
+    color: #FFF;
+    border-radius: 0.7em;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.btn-hero-section1:hover{
+    transform: scale(1.1);
+}
+.paprika{
+    position: relative;
+    /* left: 2em; */
+    top: 10em;
+    right: 20em;
+}
+
+
+.DrugiDio::before{
+    content: "";
+    position: absolute;
+    background-color: #387546;
+    z-index: 0;
+    width: 100em;
+    height: 53.5em;
+    /* border-radius: 200em; */
+    border-radius: 820em 205em 1295em 1037em;
+    left: 58em
+}
+.DrugiDio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./assets/background+pict@2x.png); */
+    /* background-color: #387546; */
+    order: 2;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+.DrugiDio img{
+    z-index: 90;
+}
+
+
+
+.hero-section2{
+    width: 100%;
+    height: 53.5em;
+    background-color: #FAFAFA;
+
+}
+
+
