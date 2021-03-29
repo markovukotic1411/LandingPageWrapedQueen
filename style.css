@@ -415,3 +415,44 @@ font-size: 1.5em;
     font-weight: normal;
     padding-bottom: 1.5em;
 }
+
+
+.hero-section4{
+
+    width: 100%;
+    height: 65.5em;
+    background: #FAFAFA;  /* fallback for old browsers */
+   
+}
+.hs3h h1{
+    text-align: center;
+    color:#383833;
+    font-size: 3.5em;
+}
+
+.hs4Flex{
+    
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;  
+}
+.hs4Flex2{
+    
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.kartice{
+    transition: ease 0.3s;
+}
+.kartice img{
+
+    border-radius: 3em;
+    width: 35em;
+    
+}
+
+
+
