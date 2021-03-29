@@ -455,4 +455,47 @@ font-size: 1.5em;
 }
 
 
+.hero-section5{
+    width: 100%;
+    height: 65.5em;
 
+    background: #FAFAFA;  /* fallback for old browsers */
+   
+}
+
+
+.cardHS5{
+    justify-content: center;
+    align-self: center;
+    /* border: 1px solid grey; */
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 20em ;
+    width: 30em;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+.cardHS5:hover{
+    transform: scale(1.1);
+
+}
+
+.slika-hs-5{
+    display: flex;
+    justify-content: center;
+    padding: 2em 0em 2em 0em;
+    border-radius: 20em;
+}
+
+.cardHS5Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHS5P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0em 2em 0em;
+}
