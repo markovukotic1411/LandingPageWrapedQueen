@@ -9,61 +9,130 @@
     <!--Animate Css-->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!--Google Fonts-->
+    <!--Google Fonts Bold-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+    
     <!--Regular Css-->
     <link rel="stylesheet" href="style.css">
     <!--JavaScript-->   
     <script src="app.js" defer></script>
-
-    
 </head>
 <body>
-    
-    <header>
+
+
+<!--HEADER SECTION--------------------------------------------------------------------------------------------->
+<header>
     <nav>
         <div class="logo">
             <img src="./assets/wrapped_green_logo.png" alt="Logo nase firme">
         </div>
         <div>
          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="animate__animated animate__rubberBand"><a href="#aboutUs">About us</a></li>
+            <li class="animate__animated animate__rubberBand"><a href="#menu">Menu</a></li>
+            <li class=" animate__animated animate__rubberBand"><a href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
 </header>
+<!--HERO SECTION 2--------------------------------------------------------------------------------------------->
 
+
+
+
+<!--HERO SECTION 1--------------------------------------------------------------------------------------------->
 <section class="hero-section1">
-
     <div class="PrviDio">
         <div class="pozicijaPrviDio">
     <h1 class="animate__animated animate__fadeInDown">Healthy & Fresh <br>Food For You</h1>
     <p class="animate__animated animate__fadeInDown">Created for lovers of healthy, delicious and<br> non-obvious food</p>
     <!--Moram nac na internet kako se ubacuje ovakva strelica u btn, ima neka posebna fora-->
-    <button class="btn-hero-section1">Check Menu -></button>
-    
+    <button class="btn-hero-section1">Check Menu<span>  &#8594;</span></button>
     </div>
     <img class="paprika" src="./assets/background_picture2.png" alt="Paprika Crvena">    
     </div>
-
     <div class="DrugiDio">
     <img src="./assets/background+pict.png" alt="">
-    <div class="krug">dadada</div>
-
-
-
     </div>
-
 </section>
+<!--HERO SECTION 1--------------------------------------------------------------------------------------------->
 
+
+
+
+<!--HERO SECTION 2--------------------------------------------------------------------------------------------->
 <section class="hero-section2">
 
+ <div class="PrviDioDva">
+    <img src="./assets/vegetable_table.png" alt="vegetable table">
+    <span class="krug"></span>
+ </div>
+
+ <div class="DrugiDioDva" id="aboutUs">
+     <div class="DrugiDioDvaTekstovi">
+     <p class="p1">About Us</p>
+     <h1>Few Words about us</h1>
+     <p class="p2">We are not ordinary food truck. We create a <br>place overflowing with positive energy that it <br>
+        expresses important tous values.<br>Get to know them specifically</p>
+        <button class="btn-hero-section2">Learn More <span> &#8594;</span></button>
+    </div>
+ </div>
+
+</section>
+<!--HERO SECTION 2--------------------------------------------------------------------------------------------->
+
+
+<!--HERO SECTION 3--------------------------------------------------------------------------------------------->
+
+<section class=" hero-section3" id="menu">
+
+    <div class="HeroSection3Tekstovi">
+        <p class="h3p1">Menu</p>
+        <h1>Explore Our Best Food</h1>
+        <p class="h3p2">Below you can see our best selling meals!</p>
+    </div>
+
+    <div class="card">
+          <div class="card1">
+                <img src="./assets/menu_photo1.png" alt="American burgers">
+                <div class="card1Text">
+                    <h1>Mighty Burger</h1>
+                    <p class="card1P">8$</p>
+                </div>
+                <div class="card1P2">
+                    <p>Served with fries and drink</p> 
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="./assets/menu_photo2.png" alt="Chickpae's salad">
+                <div class="card2Text">
+                    <h1>Chickpae's salad</h1>
+                    <p class="card2P">4$</p>
+                </div>
+                <div class="card2P2">
+                    <p>Served with fries and drink</p> 
+                </div>
+            </div>
+
+            <div class="card3">
+                <img src="./assets/menu_photo_3.png" alt="Chickpae's wraps">
+                <div class="card3Text">
+                    <h1>Chickpae's wrap</h1>
+                    <p class="card3P">3$</p>
+                </div>
+                <div class="card3P3">
+                    <p>Served with fries and drink</p> 
+                </div>
+            </div>
+    </div>
+
+
 </section>
 
-
+<!--HERO SECTION 3--------------------------------------------------------------------------------------------->
 
 
 

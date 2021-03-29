@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 *,
 ::after,
 ::before{
@@ -5,12 +8,12 @@
     margin: 0;  
     padding: 0;
     font-family: 'Raleway', sans-serif;  
-}
-
-header{
-
+   
+    
+    
 }
 nav{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +21,6 @@ nav{
     height: 5em;
     font-weight: bold;
     letter-spacing: 0.1em; 
-    
     
 }
 .logo{
@@ -32,6 +34,7 @@ nav ul{
     padding-left: 2em;
     list-style: none;
     font-size: 1.6em;
+    
 }
 
 nav ul li a{
@@ -44,35 +47,34 @@ nav ul li a{
 
     display: flex;
     justify-content: space-between;
-
     width: 100%;
     height: 53.5em;
     background: #e52d27;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #DEF0D8, #FAFAFA);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #DEF0D8, #FAFAFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 .PrviDio{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     width: 50%;
     order: 1;
+    padding-top: 8em;
 }
 
 .PrviDio h1{
-    font-size: 5em;
+    font-size: 6em;
     color: #383833;
     padding-bottom: 0.5em;
     font-weight: bold;
 }
 .PrviDio p{
-    font-size: 1em;
+    font-size: 1.5em;
     color: #383833;
     padding-bottom: 2.5em;
     letter-spacing: 0.075em; 
+    font-weight: bold;
     
 }
 .btn-hero-section1{
@@ -80,7 +82,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     background-color: #F19A33;
-    font-size: 2em;
+    font-size: 2.5em;
     width: 10em;
     height: 2em;
     color: #FFF;
@@ -88,7 +90,13 @@ nav ul li a{
     border: none;
     outline: none;
     transition: 0.5s ease;
+    cursor: pointer;
 }
+/*Strelica je ispod kod dugmadi sto je */
+span {
+    content: "\2192";
+    padding-left: 0.3em;
+  }
 
 .btn-hero-section1:hover{
     transform: scale(1.1);
@@ -96,38 +104,34 @@ nav ul li a{
 .paprika{
     position: relative;
     /* left: 2em; */
-    top: 10em;
-    right: 20em;
+    top: 3em;
+    right: 25.5em;
 }
-
-
 .DrugiDio::before{
     content: "";
     position: absolute;
     background-color: #387546;
     z-index: 0;
-    width: 100em;
+    width: 48.9em;
     height: 53.5em;
-    /* border-radius: 200em; */
-    border-radius: 820em 205em 1295em 1037em;
-    left: 58em
+    border-radius: 2000em 0em 0em 2000em;
+    left: 70em;
+
 }
 .DrugiDio{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(./assets/background+pict@2x.png); */
-    /* background-color: #387546; */
     order: 2;
     width: 50%;
     height: 100%;
     flex-direction: column;
+ 
+    
 }
 .DrugiDio img{
     z-index: 90;
 }
-
-
 
 .hero-section2{
     width: 100%;
@@ -135,5 +139,279 @@ nav ul li a{
     background-color: #FAFAFA;
 
 }
+.hero-section2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 53.5em;
+    background: #FAFAFA;  /* fallback for old browsers */
+  
+}
+.PrviDioDva{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.DrugiDioDva{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    order: 2;
+}
+.PrviDioDva img{
+    z-index: 12;
+}
 
 
+.krug{
+    width: 48.9em;
+    height: 53.5em;
+    background-color: #387546;
+    border-radius: 50%;
+    position: absolute;
+    right: 93em;
+    z-index: 0;
+}
+
+
+.DrugiDioDvaTekstovi{
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    
+}
+
+.DrugiDioDva .p1{
+    color: #F19A33;
+    font-size: 3em;
+    padding-bottom: 0.5em ;
+   
+}
+
+.DrugiDioDva h1{
+    color:#383833;
+    font-size: 4.5em;
+    padding-bottom: 0.5em;
+}
+
+.DrugiDioDva .p2{
+color: #383833;
+font-size: 1.5em;
+
+}
+
+.btn-hero-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#387546;
+    font-size: 2em;
+    width: 11em;
+    height: 2em;
+    color: #FFF;
+    border-radius: 0.7em;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.btn-hero-section2:hover{
+    transform: scale(1.1);
+}
+
+.hero-section3{
+
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    height: 65.5em;
+    background: #FAFAFA;  /* fallback for old browsers */
+    
+    
+}
+.HeroSection3Tekstovi {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.05em;
+}
+
+.h3p1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 3em;
+    color: #F19A33;
+    font-size: 2em;
+    padding-bottom: 0.5em ;
+}
+
+.hero-section3 h1{
+    text-align: center;
+    color:#383833;
+    font-size: 3.5em;
+}
+
+.h3p2{
+    text-align: center;
+    color: #383833;
+    font-size: 1.2em;
+    padding: 1em 0em 3em 0em;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 30.5em;
+}
+
+.card1{ 
+    justify-content: center;
+    align-self: center;
+    /* border: 1px solid grey; */
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 1em ;
+    transition: ease 0.3s;
+    cursor: pointer;
+
+}
+.card1:hover{
+        transform: scale(1.1);   
+}
+.card1 img{
+    border-radius: 1em 1em 0em 0em  ;
+}
+.card1Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em 0em 1em;  
+}
+.card1 h1{
+    display: flex;
+    font-size: 1.7em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+    
+}
+.card1P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+   
+
+}
+.card1P2 p{
+    
+    padding-left: 1em;
+    font-weight: normal;
+    padding-bottom: 1.5em;
+}
+
+
+.card2{ 
+    justify-content: center;
+    align-self: center;
+    /* border: 1px solid grey; */
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 1em ;
+    transition: ease 0.3s;
+    cursor: pointer;
+
+}
+.card2:hover{
+        transform: scale(1.1);   
+}
+.card2 img{
+    border-radius: 1em 1em 0em 0em  ;
+}
+.card2Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em 0em 1em;  
+}
+.card2 h1{
+    display: flex;
+    font-size: 1.7em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+    
+}
+.card2P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+
+}
+.card2P2 p{
+    padding-left: 1em;
+    font-weight: normal;
+    padding-bottom: 1.5em;
+}
+
+
+.card3{ 
+    justify-content: center;
+    align-self: center;
+    /* border: 1px solid grey; */
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 1em ;
+    transition: ease 0.3s;
+    cursor: pointer;
+
+}
+.card3:hover{
+        transform: scale(1.1);   
+}
+.card3 img{
+    border-radius: 1em 1em 0em 0em  ;
+}
+.card3Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em 0em 1em;  
+}
+.card3 h1{
+    display: flex;
+    font-size: 1.7em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+    
+}
+.card3P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+   
+
+}
+.card3P3 p{
+    padding-left: 1em;
+    font-weight: normal;
+    padding-bottom: 1.5em;
+}
