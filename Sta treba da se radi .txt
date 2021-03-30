@@ -4,16 +4,15 @@ Potrebno da se uradi
 2.  Potrebno je napraviti login i registration page
 3.  Potrebno je napraviti Kontakt stranicu 
 4.  Potrebno je napraviti da kada se klikne na "Call to us" da se otvori straica za poziv ukoliko se sajtu pristupa sa telefona
-5.  Napraviti u navbar novi link "Pocetna" koja ce biti na svim stranicama
 6.  Napraviti sajt da bude responsivan na svim uredjajima
-7.  Ubaciti JQuery animacije na website
+7.  /
 8.  Ubaciti sto vise JavaScripte (Vjezbanje).
 9,  Preimenovat brend i prilagodit ga Crnoj Gori 
 10. Napraviti posebnu stranicu "About Us" koja ce da govori istoriju restorana kao i o njihovom vlasniku i zaposlenima (Male kartice sa 
 posvetom). Ova stranica ce da se otvara kada se klikne na dugme "Learn More".
+11. Dizajnirati preostale stranice u figmi
 
-
-11. Ukoliko mi jos nesto pane na pamet- ovdje ce biti upisano
+x. Ukoliko mi jos nesto pane na pamet- ovdje ce biti upisano
 
 
 
@@ -25,7 +24,7 @@ posvetom). Ova stranica ce da se otvara kada se klikne na dugme "Learn More".
 
 ZAVRSENO------------------------------------------------------------------------------------------------------------------------------
 
-1.
+1. 5. Napraviti u navbar novi link "Pocetna" koja ce biti na svim stranicama
 2.
 3.
 4.
