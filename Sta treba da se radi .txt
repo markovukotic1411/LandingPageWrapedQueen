@@ -4,7 +4,7 @@ Potrebno da se uradi
 2.  Potrebno je napraviti login i registration page
 3.  Potrebno je napraviti Kontakt stranicu 
 4.  Potrebno je napraviti da kada se klikne na "Call to us" da se otvori straica za poziv ukoliko se sajtu pristupa sa telefona
-6.  Napraviti sajt da bude responsivan na svim uredjajima
+6.  Napraviti sajt da bude responsivan na svim uredjajima (Media Queries)
 7.  /
 8.  Ubaciti sto vise JavaScripte (Vjezbanje).
 9,  Preimenovat brend i prilagodit ga Crnoj Gori 
