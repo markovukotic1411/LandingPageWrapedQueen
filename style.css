@@ -1,18 +1,23 @@
 html {
     scroll-behavior: smooth;
-  }
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 *,
 ::after,
 ::before{
     box-sizing: border-box;
     margin: 0;  
     padding: 0;
-    font-family: 'Raleway', sans-serif;  
-   
-   
-    
-    
+    font-family: 'Raleway', sans-serif;
 }
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 nav{
     background-color: #fefefe;
     position: sticky;
@@ -561,15 +566,6 @@ footer img{
 /*MEDIA QUERIES -----------------------------------------------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-/*MEDIA QUERIES -----------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1024px) and (min-height: 1336px) {
 
     html, body {
@@ -590,7 +586,7 @@ footer img{
         top: 4em !important;
         right: 16.5em !important;
     }
-}
+
 
 .DrugiDioDva{
     padding-left: 3em;
@@ -675,7 +671,9 @@ footer img{
 
 
 
+}
 
+/*MEDIA QUERIES -----------------------------------------------------------------------------------------------------------------------*/
 
 
 
