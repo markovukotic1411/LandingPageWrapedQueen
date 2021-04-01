@@ -280,15 +280,6 @@ span {
     order: 2;
 }
 
-.krug{
-    width: 48.9em;
-    height: 53.5em;
-    background-color: #387546;
-    border-radius: 50%;
-    position: absolute;
-    right: 93em;
-    z-index: 0;
-}
 
 
 .DrugiDioDvaTekstovi{
@@ -388,7 +379,7 @@ font-size: 1.5em;
     text-align: center;
     color: #383833;
     font-size: 1.2em;
-    padding: 1em 0em 3em 0em;
+    padding: 1em 0 3em 0;
 
 }
 
@@ -415,13 +406,13 @@ font-size: 1.5em;
         transform: scale(1.1);   
 }
 .card1 img{
-    border-radius: 1em 1em 0em 0em  ;
+    border-radius: 1em 1em 0 0 ;
 }
 .card1Text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em 1em 0em 1em;  
+    padding: 1em 1em 0 1em;
 }
 .card1 h1{
     display: flex;
@@ -463,13 +454,13 @@ font-size: 1.5em;
         transform: scale(1.1);   
 }
 .card2 img{
-    border-radius: 1em 1em 0em 0em  ;
+    border-radius: 1em 1em 0 0  ;
 }
 .card2Text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em 1em 0em 1em;  
+    padding: 1em 1em 0 1em;
 }
 .card2 h1{
     display: flex;
@@ -509,13 +500,13 @@ font-size: 1.5em;
         transform: scale(1.1);   
 }
 .card3 img{
-    border-radius: 1em 1em 0em 0em  ;
+    border-radius: 1em 1em 0 0  ;
 }
 .card3Text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em 1em 0em 1em;  
+    padding: 1em 1em 0 1em;
 }
 .card3 h1{
     display: flex;
@@ -651,7 +642,7 @@ font-size: 1.5em;
 .slika-hs-5{
     display: flex;
     justify-content: center;
-    padding: 2em 0em 2em 0em;
+    padding: 2em 0 2em 0;
     border-radius: 20em;
 }
 
@@ -665,7 +656,7 @@ font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 0em 2em 0em;
+    padding: 1em 0 2em 0;
 }
 
 /*--Hero section 5 --------------------------------------------------------------------------------------------->*/
@@ -849,10 +840,6 @@ footer img{
 
     /*--Hero section 3 --------------------------------------------------------------------------------------------->*/
 
-
-
-
-
     /*--Hero section 4 --------------------------------------------------------------------------------------------->*/
 
 
@@ -874,7 +861,6 @@ footer img{
     }
 
     /*--Hero section 4 --------------------------------------------------------------------------------------------->*/
-
 
 
     /*--Hero section 5 --------------------------------------------------------------------------------------------->*/
@@ -915,24 +901,13 @@ footer img{
     /*--FOOTER --------------------------------------------------------------------------------------------->*/
 
 
-
-
 }
-
 
 
 @media (min-width: 2000px ) /*and (min-height: 1336px) */ {
 
-    .krug{
-        display: none;
-    }
-    .DrugiDio:before{
-        display: none;
-    }
 
 }
-
-
 
 
 @media (max-width: 1587px ) /*and (min-height: 1336px) */ {
@@ -977,12 +952,9 @@ footer img{
 @media (max-width: 360px ) /*and (min-height: 1336px) */ {
 
 
-
-
-
-
-
 }
+
+
 /*MEDIA QUERIES -----------------------------------------------------------------------------------------------------------------------*/
 
 
