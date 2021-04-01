@@ -515,7 +515,7 @@ font-size: 1.5em;
 .kartice img{
 
     border-radius: 3em;
-    width: 35em;
+    width: 32em;
     
 }
 
@@ -550,6 +550,15 @@ font-size: 1.5em;
    
 }
 
+.cardddd{
+    display: flex;
+    justify-content: space-around;
+    height: 20em;
+    flex-direction: row;
+    padding-top: 10em;
+
+
+}
 
 .cardHS5{
     justify-content: center;
@@ -633,7 +642,10 @@ footer img{
 /*MEDIA QUERIES -----------------------------------------------------------------------------------------------------------------------*/
 
 
-@media screen and (max-width: 1024px) and (min-height: 1336px) {
+@media screen and (max-width: 1546px) /*and (min-height: 1336px) */{
+
+
+
 
     html, body {
         max-width: 100%;
@@ -668,6 +680,9 @@ footer img{
     }
 
     .DrugiDio::before {
+        display: none;
+    }
+    .krug{
         display: none;
     }
 
@@ -760,7 +775,7 @@ footer img{
 
     .hero-section4{
         margin-top: 37em;
-        height: 190em;
+        height: 177em;
 
     }
 
@@ -771,7 +786,7 @@ footer img{
     .cardd {
         display: flex;
         flex-direction: column;
-        height: 89em;
+        height: 81em;
         justify-content: center;
     }
 
@@ -784,13 +799,15 @@ footer img{
 
     .hero-section5{
 
-        height: 50em;
+        height: 61em;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 9em;
+
 }
-    .carddd{
+    .cardddd{
+
+        flex-direction: column;
 
     }
 
